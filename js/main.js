@@ -17,12 +17,3 @@ function slideIn() {
 
 
 setInterval(slideIn, 3000); // images change every 3 seconds
-
-
-//main message animation
-
-// let welcome = document.getElementsByClassName('mainMessage');
-
-// function appear() {
-
-// }

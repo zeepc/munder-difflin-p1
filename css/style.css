@@ -1,6 +1,5 @@
-body{
+body {
 	font-family: 'Varela Round', sans-serif;
-
 }
 section{
 	height:850px;
@@ -8,13 +7,11 @@ section{
 h1 {
 	font-family: 'Secular One', sans-serif;
 }
-nav{
-}
 ul {
 	display:flex;
 	float:right;
 }
-li{
+li {
 	font-family: 'Secular One', sans-serif;
 	list-style-type:none;
 	display:flex;
@@ -25,32 +22,30 @@ li{
 	margin-top: 30px;
 	text-shadow: 3px 4px 5px #05193e7a;
 }
-
 li:hover {
 	transform: scale(1.1);
 }
 
-a{
+a {
 	text-decoration: none;
 	color:white;
 }
 footer{
 	position:flex;
 	height:150px;
-	background-color: #a9a7b375;
+	background-color: #a9a7b3;
 }
 input {
 	position:absolute;
 	margin-top:400px;
 	margin-left:280px;
 }
-
 .hide{
 	display: none;
 }
 
 /*paper plane*/
-.plane{
+.plane {
 	position: absolute;
 	margin: 500px 1000px;
 	animation: accross 1s  ease-in forwards;
@@ -58,29 +53,25 @@ input {
 
 
 /*MD Font "Logo" */
-.logo{
+.logo {
 	margin-right:410px;
 	margin-top:-15px;
 	font-size:33px;
 }
 /* sections background properties*/
-.home{
-	
-	background-image: url(images/cloudpaper.jpeg);
-	/*
+.home {
 	background-image:
 	linear-gradient(
       #2c5977, #3fad97d6, #8897c16b);
-      */
 }
-.about{
+.about {
 	background-image:
     linear-gradient(
       #2c5977, #3fad97d6, #8897c16b);
     );
 }
 
-.contact{
+.contact {
 	background-color:#1c2c3e;
 	height:600px;
 }
@@ -92,8 +83,12 @@ input {
 	background-color: #ffffff4a;
 	height:450px;
 	width:700px;
-	animation: fade-in 4s forwards;
-	animation-delay: 3s;
+	border-top-left-radius: 17% 20%;
+	border-top-right-radius: 17% 20%;
+	border-bottom-left-radius: 17% 20%;
+	border-bottom-right-radius: 17% 20%;
+	/*animation: fade-in 4s forwards;
+	animation-delay: 5s;*/
 }
 .mainMessage h1 {
 	text-align:center;
@@ -102,39 +97,43 @@ input {
 	color: #edf4fb;
 	text-shadow: 2px 3px 5px #383b3cde;
 }
-.mainMessage p{
+.mainMessage p {
 	text-align:center;
 	margin-top: -50px;
 	color:aliceblue;
 	font-size: 30px;
 	text-shadow: 1px 3px 1px #383b3cde;
 }
-.aboutUs{
+.aboutUs {
 	text-align:justify;
 	float:right;
 	color: aliceblue;
 	margin:150px 50px 0px 650px;
 }
-.mySlides{										
+.mySlides {										
 	position:absolute;
 	margin:150px 30px;
 	box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.2)
 }
 
-.slides{
+.slides {
 	height:500px;
 	width:520px;
 }
 
-.messages{
+.messages {
 	position:absolute;
 	margin-top:5%;
 	margin-left:23%;
 	height:450px;
 	width: 600px;
 	background-color: rgba(255, 255, 255, 0.3);
+	border-top-left-radius: 17% 20%;
+	border-top-right-radius: 17% 20%;
+	border-bottom-left-radius: 17% 20%;
+	border-bottom-right-radius: 17% 20%;
 }
-.namefield{
+.namefield {
 	position:absolute;
 	width:370px;
 	height:25px;
@@ -142,7 +141,7 @@ input {
 	margin-left:117px;
 
 }
-.emailfield{
+.emailfield {
 	position:absolute;
 	height:25px;
 	width: 370px;
@@ -150,7 +149,25 @@ input {
 	margin-left:117px;
 }
 
-#msgBox{
+.address{
+	margin-left: 40px;
+	font-family: 'Secular One';
+	display: block;
+	text-align: left;
+	color: #3a3737c2;
+}
+
+.contactBlock {
+	position: absolute;
+	margin-top: 35px;
+	font-size: 20px;
+}
+.footLinks {
+	margin-right: 10px;
+	margin-top:35px;
+}
+
+#msgBox {
 	position:absolute;
 	height: 200px;
 	width:370px;
@@ -158,15 +175,6 @@ input {
 	margin-left:117px;
 	resize:none;
 }
-
-/*Social Media Icons*/
-#socOne{
-}
-#socTwo{
-}
-#socThree{
-}
-
 
 /* ANIMATIONS! */
 
@@ -177,7 +185,7 @@ input {
 	70%{ transform: translateX(-300px)translateY(-300px)}
 	100%{ transform: translateX(-815px)translateY(-480px)}
 }
-@keyframes fade-in {
+/*@keyframes fade-in {
 	0%{opacity:0;}
 	100%{opacity:1;}
-}
+}*/
